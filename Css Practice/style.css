@@ -1,0 +1,71 @@
+#name {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.one {
+    background-color: darkcyan;
+}
+
+.scope {
+    text-align: center;
+    color:yellow;
+    padding-bottom: 40px;
+}
+
+.two {
+    display: flex;
+
+
+    .head1 {
+        font-weight: 100px;
+        color: darkcyan;
+        padding-top: 180px;
+    }
+}
+
+.head2 {
+    color: blue;
+    background-color: aliceblue;
+
+
+
+}
+
+.head3 {
+    color: darkcyan;
+
+}
+
+.head4 {
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+.head3 {
+    color: darkcyan;
+    padding-top: 40px;
+}
+
+.head5 {
+    font-style: italic;
+}
+
+.three {
+    padding-left: 30px;
+    background-color: aliceblue;
+}
+.head6{
+    color: darkgreen;
+    padding-left: 30px;
+    background-color: aliceblue;
+}
+.head7{
+    color:blue;
+}
+.head8{
+    color: aliceblue;
+    background-color: darkcyan;
+    text-align: center;
+}

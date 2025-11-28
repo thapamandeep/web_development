@@ -1,0 +1,60 @@
+.picture {
+    padding-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 120px;
+    margin: auto;
+    display: block;
+    width: 40%;
+}
+
+#head {
+    text-align: center;
+    color: rgb(18, 94, 27);
+}
+
+.para {
+    text-align: center;
+    font-size: 15px;
+}
+
+.para1 {
+    text-align: center;
+    color: brown;
+}
+
+.label1{
+       
+    width: 60px;
+    height: 20px;
+    font-size: 13px;
+    color: white;
+    margin: auto;
+    display: flex;
+    width: 30%;
+    gap: 5px   ;
+    padding-top: 10px;
+}
+.label2{
+    display: flex;
+    width: 60px ;
+    height: 20px ;
+    font-size: 12px;
+    margin: auto;
+    width: 190px;
+    padding-top: 10px;
+    gap: 5px;
+}
+.button1{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+.picture2{
+    height: 540px ;
+    width: 400px;
+}
+
+    
+    
+
