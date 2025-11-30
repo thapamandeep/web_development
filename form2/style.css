@@ -1,0 +1,78 @@
+/* .div2 {
+    position: relative;
+    padding-top: 20px;
+
+} */
+ /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } */
+ .div1{
+    border-color: black;
+    border-style: solid;
+ }
+
+.label1 {
+    font-size: 20px;
+}
+
+.head {
+    text-align: center;
+}
+
+.par1 {
+    font-size: 17px;
+    text-align: center;
+}
+
+.par2 {
+    font-size: 14px;
+}
+
+.container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cell {
+    border-radius: 3px;
+}
+
+.container1{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3,1fr);
+}
+.cell1{
+    border-radius: 3px;
+}
+.label2{
+        font-size: 20px;
+}
+.container2{
+    display: grid;
+   
+}
+.container3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.container4{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 10px;
+}
+.container6{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 10px;
+}
+.container7{
+    position: relative;
+    left: 250px;
+    
+}
+
