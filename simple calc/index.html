@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Calculator</title>
+    <style>
+        .border {
+            height: 380px;
+            width: 240px;
+            border-style: solid;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div class="calc">
+        <form>
+
+            <div class="val">
+              
+                <label>Number One</label>
+                <input id="cal1" type="number">
+
+                
+            </div>
+            <br>
+            <div class="val2">
+                <label>Number Two</label>
+                <input id="cal2" type="number">
+            </div>
+            <br>
+            <div class="buton">
+            <button type="button" onclick="add()">Add</button>      
+            <button type="button" onclick="multy()">Multiply</button>
+            <button type="button" onclick="sub()">Subtarction</button>
+            <button type="button" onclick="divison()">Devide</button>
+            </div>
+            <script>
+
+                function add(){
+                    let firstNumber = Number(document.getElementById('cal1').value);
+
+                    let secondNumber=Number(document.getElementById('cal2').value);
+                    console.log(firstNumber+secondNumber);
+                }
+                function multy(){
+                    let firstNumber = Number(document.getElementById('cal1').value);
+                    let secondNumber = Number(document.getElementById('cal2').value);
+                    console.log(firstNumber*secondNumber);
+                }
+                function sub(){
+                    let firstNumber = Number(document.getElementById('cal1').value);
+                    let secondNumber = Number(document.getElementById('cal2').value);
+                    console.log(firstNumber-secondNumber);
+                }
+                function divison(){
+                    let firstNumber = Number(document.getElementById('cal1').value);
+                    let secondNumber = Number(document.getElementById('cal2').value);
+                    console.log(firstNumber/secondNumber);
+                }
+
+            </script>
+        </form>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

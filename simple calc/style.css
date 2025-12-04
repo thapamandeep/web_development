@@ -1,0 +1,12 @@
+
+.val2{
+    display:flex   ;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+bottom: 50px;
+top: 7px;
+}
+.buton{
+    gap: 5px;
+    top: 7px;
+}
