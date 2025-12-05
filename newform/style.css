@@ -31,36 +31,42 @@
     left: 5px;
 }
 
-#padd{
+#padd {
     position: relative;
     top: 15px;
     left: 5px;
 }
-#teadd{
-       position: relative;
+
+#teadd {
+    position: relative;
     top: 15px;
     left: 5px;
 }
-#connum{
-       position: relative;
+
+#connum {
+    position: relative;
     top: 15px;
     left: 5px;
 }
-#ema{
-       position: relative;
+
+#ema {
+    position: relative;
     top: 15px;
     left: 5px;
 }
-#edu{
-       position: relative;
+
+#edu {
+    position: relative;
     top: 15px;
     left: 5px;
 }
-#exp{
-       position: relative;
+
+#exp {
+    position: relative;
     top: 15px;
     left: 5px;
 }
+
 .but {
     position: relative;
     top: 40px;
