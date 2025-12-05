@@ -10,6 +10,7 @@
     position: relative;
     left: 9px;
     top: 15px;
+    color: rgb(53, 98, 145);
 }
 
 #fna {
@@ -71,4 +72,5 @@
     position: relative;
     top: 40px;
     left: 80%;
+    color: rgb(53, 98, 145);
 }

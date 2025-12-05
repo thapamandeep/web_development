@@ -10,10 +10,12 @@
             margin: auto;
             border-radius: 8px;
             border-style: solid;
+            border-color: rgb(53, 98, 145);
         }
 
         h1 {
             text-align: center;
+            color: rgb(53, 98, 145) ;
         }
     </style>
     <link rel="stylesheet" href="style.css">
@@ -28,7 +30,7 @@
         <div class="border">
 
             <div class="inbox">
-                
+
                 <div>
                     <label class="name1">First Name</label><br>
                     <input id="fna" type="text" placeholder="enter your first name">
@@ -67,8 +69,10 @@
                 <div>
                     <label class="name1">Education</label><br>
                     <select id="edu" name="educate" id="educate">
+                        <option value="choose education">Education</option>
                         <option value="SEE">SEE</option>
                         <option value="+2">+2</option>
+                        <option value="Baechlor">Baechlor</option>
                     </select>
 
                 </div>
@@ -79,7 +83,7 @@
                 </div>
             </div>
 
-            <button class="but" type="button" onclick="intro() , Address() , linked()">Submit</button>
+            <button class="but" type="button" onclick="intro()">Submit</button>
 
         </div>
         <script>
@@ -89,28 +93,25 @@
                 let middleName = document.getElementById('midna').value;
                 let lastName = document.getElementById('lana').value;
 
-                console.log(firstName, middleName, lastName,);
-            }
-
-            function Address() {
                 let parmananentAddress = document.getElementById('padd').value;
                 let temporaryAddress = document.getElementById('teadd').value;
                 let contactNumber = document.getElementById('connum').value;
 
-                console.log(parmananentAddress , temporaryAddress , contactNumber);
-            }
-
-            function linked(){
                 let emAil = document.getElementById('ema').value;
                 let eduCation = document.getElementById('edu').value;
                 let expErence = document.getElementById('exp').value;
 
-                console.log(emAil , eduCation , expErence);
+                console.log(firstName, middleName, lastName, );
+                console.log(parmananentAddress, temporaryAddress, contactNumber);
+                console.log( emAil, eduCation, expErence);
             }
+
+
+
 
         </script>
     </form>
-    
+
 
 </body>
 
