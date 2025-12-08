@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CalcDesigned</title>
+    <style>
+        .mainborder {
+            height: 500px;
+            width: 380px;
+            border-radius: 6px;
+            border-style: solid;
+            border-color: burlywood;
+
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainborder">
+
+        <div class="Key">
+            <input class="dis" type="number">
+        </div>
+
+        <div class="pad">
+            <button class="but">1</button>
+            <button class="but2">2</button>
+            <button class="but">3</button>
+            <button class="but" style="background-color: rgb(25, 197, 22); color: white; font-size: 20px;">AC</button>
+            <button class="but"
+                style="background-color: rgb(25, 197, 22); color: white; font-size: 20px;">DL</button><br>
+            <button class="but">4</button>
+            <button class="but">5</button>
+            <button class="but">6</button>
+            <button class="but" style="background-color: rgb(25, 197, 22); color: white; font-size: 20px;">+</button>
+            <button class="but"
+                style="background-color: rgb(25, 197, 22); color: white; font-size: 20px;">*</button><br>
+            <button class="but">7</button>
+            <button class="but">8</button>
+            <button class="but">9</button>
+            <button class="but" style="background-color: rgb(25, 197, 22); color: white; font-size: 20px;">-</button>
+            <button class="but"
+                style="background-color: rgb(25, 197, 22); color: white; font-size: 20px;">/</button><br>
+            <button class="lastbut">0</button>
+            <button class="equalto"
+                style="background-color: rgb(25, 197, 22); color: white; font-size: 20px;" type="button" onclick="calc()" value="calc">=</button>
+
+        </div>
+       <script>
+        function calc(){
+            let numberKeys1 = number( document.querySelector(".but")).value;
+            let numberKeys2 = number(document.querySelector(".but2")).value;
+            let numberKeys3 = document.querySelector(".but").value;
+            
+            console.log(numberKeys1+numberKeys2);
+        }
+       </script> 
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+.dis{
+    position: relative;
+    height: 70px;
+    width: 350px; 
+    top: 20px;
+    left: 10px;
+    border-radius: 6px;
+    border-color: black;
+    border-style: double;
+}
+
+.but{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    top: 50px;
+    left: 10px;
+    border-radius: 8px;
+    gap: 10px;
+}
+.lastbut{
+    position: relative;
+    height: 60px;
+    width: 90px;
+    top: 58px;
+    left: 10px;
+    border-radius: 8px;
+}
+.but2{
+     position: relative;
+    height: 60px;
+    width: 60px;
+    top: 50px;
+    left: 10px;
+    border-radius: 8px;
+    gap: 10px;
+}
+.equalto{
+        position: relative;
+    height: 60px;
+    width: 90px;
+    top: 58px;
+    left: 10px;
+    border-radius: 8px;
+}
