@@ -1,0 +1,56 @@
+.fullPage{
+    height: 400px;
+    width: 450px;
+    background-color: rgb(251, 249, 249);
+    border-radius: 8px;  
+}
+.barNer{
+    width: 450px;
+    height: 90px;
+    background-color: rgb(44, 44, 122);
+}
+#heaDing{
+    text-align: center;
+    position: relative;
+    color: white;
+    background-color: rgb(138, 138, 195);
+    width: 220px;
+    top: 27px;
+}
+#smallHeading{
+    font-size: 10px;
+    color: white;
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+#nameOf{
+    position: relative;
+    left: 15px;
+    font-size: 16px;
+}
+.sureName{
+    position: relative;
+    left: 15px;
+   display: grid;  
+}
+.fL{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 3px;
+}
+.addRess{
+   
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    font-size: 16px;
+    left: 15px;
+}
+.emergenCy{
+    font-size: 15px;
+}
+#buton{
+    position: relative;
+    left: 50px;
+    top: 10px;
+}

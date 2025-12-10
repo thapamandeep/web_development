@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Membership form
+    </title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <form>
+        <div class="fullPage">
+
+            <div class="barNer">
+                <h2 id="heaDing">MEMBERSHIP</h2>
+                <h4 id="smallHeading">APPLICATION FORM</h4>
+            </div>
+
+            <h3 id="nameOf">NAME OF APPLICANT</h3>
+
+            <div class="sureName">
+
+                <div class="fL">
+                    <label>First Name</label>
+                    <label>Last Name</label>
+
+                </div>
+
+                <div class="fL">
+                    <input type="text" id="firstName" placeholder="enter your first name" style="width: 170px;">
+                    <input type="text" id="lastName" placeholder="enter your last name" style="width: 170px;">
+                </div>
+
+
+                <div class="addRess">
+                    <h3>MALING ADDRESS</h3>
+                    <h3>CONTACT</h3>
+                </div>
+
+                <div class="fL">
+                    <label>Street Address</label>
+                    <label>Phone Number</label>
+                </div>
+
+                <div class="fL">
+                    <input type="text" id="addRess" placeholder="enter your address" style="width: 170px;" >
+                    <input type="text" id="numBer" placeholder="enter your phoneNumber" style="width: 170px;" >
+                </div>
+
+                <div class="fL">
+                    <label>Street Province</label>
+                    <label>Work Number</label>
+                </div>
+
+                <div class="fL">
+                    <input type="text" id="proVince" placeholder="enter your Province" style="width: 170px;" >
+                    <input type="text" id="workNumber" placeholder="enter your work Number" style="width: 170px;" >
+                </div>
+
+                <div class="fL">
+                    <label>Postal Code</label>
+                    <label>Email Address</label>
+                </div>
+
+                <div class="fL">
+                    <input type="code" id="code1" placeholder="enter your postal code" style="width: 170px;" >
+                    <input type="email"id="emAil" placeholder="enter your email address" style="width: 170px;">
+                </div>
+
+            </div>
+
+            <button id="buton" type="button" onclick="Dispy()">Submit</button>
+
+        </div>
+        <div id="Display" style="width: 250px; height: 300px ; border: 1px solid black;"></div>
+    </form>
+
+    <script>
+        const display = document.getElementById('Display');
+
+
+
+        function Dispy(){
+           
+            let first = document.getElementById("firstName").value;
+           let last = document.getElementById("lastName").value;
+           let address = document.getElementById("addRess").value;
+           let work_number = document.getElementById("workNumber").value;
+           let code = document.getElementById("code1").value;
+           let email2 = document.getElementById("emAil").value;
+            
+           display.innerHTML = first  + " " + last + "\n" + address  +  " " + work_number + "\n " + code + " " + email2; 
+            
+        }
+        
+    </script>
+</body>
+
+</html>
