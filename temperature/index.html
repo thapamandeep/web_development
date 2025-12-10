@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Temperature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Temperature</h1>
+
+    <div id="temperaTure">
+        <label>Degree Fahrenient</label>
+        <input type="text" id="DF" style="width: 50px; height: 30px; border: 3px solid blue;"></input>
+        <br>
+
+        <br>
+        <button type="button" onclick="val()">Convert</button><br> <br>
+        <label>Degree celsius</label>
+       
+
+        <input id="show"></input>
+    </div>
+    <script>
+        const temp = document.getElementById("show");
+        function val() {
+            let fahrent = document.getElementById("DF").value;
+
+            let cels = (fahrent - 32) * 5 / 9;
+
+            temp.value = cels;
+
+
+
+        }
+
+    </script>
+</body>
+
+</html>
