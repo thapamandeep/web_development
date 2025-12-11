@@ -15,7 +15,7 @@
 
         h1 {
             text-align: center;
-            color: rgb(53, 98, 145) ;
+            color: rgb(53, 98, 145);
         }
     </style>
     <link rel="stylesheet" href="style.css">
@@ -79,7 +79,7 @@
 
                 <div>
                     <label class="name1">Experence</label>
-                    <input id="exp" type="text" placeholder="enter your experence">
+                    <input class="exp" type="text" placeholder="enter your experence">
                 </div>
             </div>
 
@@ -98,17 +98,13 @@
                 let contactNumber = document.getElementById('connum').value;
 
                 let emAil = document.getElementById('ema').value;
-                let eduCation = document.getElementById('edu').value;
-                let expErence = document.getElementById('exp').value;
+                let eduCation = document.querySelector('#edu').value;
+                let expErence = document.querySelector('.exp').value
 
-                console.log(firstName, middleName, lastName, );
+                console.log(firstName, middleName, lastName,);
                 console.log(parmananentAddress, temporaryAddress, contactNumber);
-                console.log( emAil, eduCation, expErence);
+                console.log(emAil, eduCation, expErence);
             }
-
-
-
-
         </script>
     </form>
 
