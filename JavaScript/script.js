@@ -23,7 +23,10 @@ function output() {
     } else if (eco < 40) {
        resukt.innerHTML="you are fail in economics";
         return false;
-    } else {
+    } else if ([sci , eng , math , comp , eco < 45]){
+        result.innerHTML = "you are fai in this subjects";
+    }
+    else {
        result.innerHTML="you are pass";
     }
 
