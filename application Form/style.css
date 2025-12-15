@@ -1,0 +1,25 @@
+
+#head1{
+    color: blueviolet;
+    text-align: center;
+}
+#head2{
+    color: blueviolet;
+}
+#contactnum{
+   
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 5px;
+   
+}
+#appname{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 5px;
+}
+.birthdate{
+    position: relative;
+    left: 157px;
+    width: 250px;
+}

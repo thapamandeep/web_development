@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Application form
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="head1">Application Form</h1>
+    <h3 id="head2">Applicant General Information</h3>
+    <hr>
+
+    <div id="mainborder">
+
+        <div id="contactnum">
+            <label>Contact Number:</label>
+            <input id="phnumber" type="text" placeholder="enter your contact number"
+                style="position: relative; right: 251px;">
+
+            <br>
+
+            <label>Email:</label>
+            <input id="eMail" type="email" placeholder="enter your email" style="position: relative; right: 251px;">
+        </div>
+        <br>
+
+        <div id="appname">
+            <label>Applicaton Name:</label>
+            <input id="firstName" type="text" placeholder="enter your first name"
+                style="position: relative; right: 1px; width: 200px;">
+            <input id="middlename" type="text" placeholder="enter your middle name"
+                style="position: relative; right: 30px; width: 200px;">
+            <input id="lastname" type="text" placeholder="enter your last name"
+                style="position: relative; right: 60px; width: 200px;">
+        </div>
+        <br>
+
+        <div id="nepliname">
+            <labe>Name(Nepali)</label>
+                <input class="nepaliname" type="text" style="position: relative; left:155px; width: 500px;"
+                    placeholder="अाफनाे नाम लेखनुस">
+        </div>
+
+        <br>
+
+        <div id="gender">
+            <label>Gender:</label>
+            <select name="gender" id="gender" style="position: relative; width: 510px; left: 191px;">
+                <option value="choose your gender">choose your gender</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">Others</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div id="dob">
+            <label>Date of birth:</label>
+            <input class="birthdate" type="date">
+            <input class="birthdate" type="date">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Identification Type:</label>
+            <select name="identify" id="identify" style="position: relative; width: 515px; left: 115px;">
+                <option value="">choose your citizen</option>
+                <option value="Nepali">Nepalease</option>
+                <option value="indians">Indians</option>
+                <option value="Aribic">Aribic</option>
+                <option value="japan">Japnese</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Citizenship Number:</label>
+            <input id="citznno" type="number" style="position: relative; width: 510px; left:107px;">
+        </div>
+        <br>
+
+        <div>
+            <label>Issued By:</label>
+            <select name="issue" id="issue" style="position: relative; width: 517px; left: 170px;">
+                <option value="syangja">Syangja</option>
+                <option value="baglung">Baglung</option>
+                <option value="pokhara">Pokhara</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label>Issued Date:</label>
+            <input id="issuedate" type="datetime-local" style="position: relative; width: 512px; left: 160px;">
+        </div>
+
+        <br>
+
+      <hr>
+      <h2 style="color: blueviolet;">Permanent Address Detil:</h2>
+        <button type="button" onclick="alowed()">Subbmit</button>
+
+
+    </div>
+    <h2 id="note"></h2>
+
+    <script src="script.js">
+
+    </script>
+
+</body>
+
+
+</html>
